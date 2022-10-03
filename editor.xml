@@ -1,6 +1,6 @@
 <application>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
@@ -9,8 +9,12 @@
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
     <pattern icon="important" case-sensitive="true" pattern="TODO NOW" />
+    <pattern pattern="TODO LOGGING" />
     <filter name="NOW">
       <pattern index="2" />
+    </filter>
+    <filter name="LOGGING">
+      <pattern index="3" />
     </filter>
   </component>
 </application>
