@@ -8,7 +8,7 @@
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
-    <pattern icon="important" case-sensitive="true" pattern="TODO NOW" />
+    <pattern icon="important" case-sensitive="true" pattern="TODO .*[ ]?NOW" />
     <pattern pattern="TODO LOGGING" />
     <filter name="NOW">
       <pattern index="2" />
